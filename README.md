@@ -1,3 +1,5 @@
+<div style="text-align:center">
+
 ## Welcome to SOOMIN Pages
 
 ![kopo](imgs/kopo.png)
@@ -29,3 +31,4 @@
 
 010 4754 7257
 
+</div>
