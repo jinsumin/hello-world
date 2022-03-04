@@ -1,6 +1,6 @@
-## Welcome to SOOMIN Pages
-
 <div style="text-align:center">
+
+## Welcome to SOOMIN Pages
 
 ![kopo](imgs/kopo.png)
 
