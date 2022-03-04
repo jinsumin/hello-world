@@ -18,7 +18,7 @@
 
 ### Subjects
 
-|수강과목|링크
+|수강과목|링크|
 |:-----|:--|
 |소프트웨어형상관리|[소프트웨어형상관리](https://jinsumin.github.io)|
 |유튜브영상|[유튜브영상](https://youtube.com)|
