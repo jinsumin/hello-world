@@ -28,9 +28,13 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### 수강 과목 리스트
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jinsumin/hello-world/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+|이름|진수민|
+|:-----|:--|
+|연락처|dev.soomin@kakao.com|
+|front-end|HTML, CSS, JavaScript|
+|Back-end|Java, Python, NodeJS|
 
 ### Support or Contact
 
