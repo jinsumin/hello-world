@@ -475,6 +475,7 @@ p {
 
 .contact__title,
 .contact__email,
+.contact__number,
 .contact__rights {
   color: var(--color-white);
 }
