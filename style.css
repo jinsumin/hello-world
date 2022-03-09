@@ -94,6 +94,17 @@ p {
   margin: 4px 0;
 }
 
+table {
+  width: 100%;
+  border-top: 1px solid var(--color-blue);
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid var(--color-blue);
+  padding: 10px;
+}
+
 /* Navbar */
 #navbar {
   position : fixed;
