@@ -11,6 +11,7 @@
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
+  --color-dark-blue: #032dff;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-light-grey2: #9C948E;
@@ -96,13 +97,13 @@ p {
 
 table {
   width: 100%;
-  border-top: 1px solid var(--color-blue);
+  border-top: 2px solid var(--color-blue);
   border-collapse: collapse;
 }
 
 th, td {
-  border-bottom: 1px solid var(--color-blue);
-  padding: 10px;
+  border-bottom: 2px solid var(--color-blue);
+  padding: 12px;
 }
 
 /* Navbar */
