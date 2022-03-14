@@ -1,195 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SOOMIN's Portfolio</title>
-    <meta name="description" content="Portfolio for programmer SOOMIN" />
-    <meta name="author" content="SOOMIN" />
-    <link rel="icon" type="image/png" href="imgs/poodle.png" />
-    <script
-      src="https://kit.fontawesome.com/72f7bcac31.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-  </head>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SOOMIN HOME</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link
+          href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+          rel="stylesheet"
+  />
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
 
-  <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-      <div class="navbar__logo">
-        <i class="fab fa-dev"></i>
-        <a href="#"> SOOMIN</a>
+<body>
+<div id="mobile-menu-open" class="shadow-large">
+  <i class="fa fa-bars" aria-hidden="true"></i>
+</div>
+<!-- End #mobile-menu-toggle -->
+
+<header>
+  <div id="mobile-menu-close">
+    <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+  </div>
+  <ul id="menu" class="shadow">
+    <li>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#experience">Experience</a>
+    </li>
+    <li>
+      <a href="#education">Education</a>
+    </li>
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="#skills">Skills</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</header>
+<!-- End header -->
+
+<div id="lead">
+  <div id="lead-content">
+    <h1>Ryan Fitzgerald</h1>
+    <h2>Software Engineer</h2>
+    <a href="#" class="btn-rounded-white">Download Resume</a>
+  </div>
+  <!-- End #lead-content -->
+
+  <div id="lead-overlay"></div>
+
+  <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+  </div>
+  <!-- End #lead-down -->
+
+</div>
+<!-- End #lead -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="heading">About Me</h2>
       </div>
-      <ul class="navbar__menu">
-        <li class="navbar__menu__item active" data-link="#home">메인</li>
-        <li class="navbar__menu__item" data-link="#about">소개</li>
-        <li class="navbar__menu__item" data-link="#skills">교육기관</li>
-        <li class="navbar__menu__item" data-link="#work">수강과목</li>
-        <li class="navbar__menu__item" data-link="#contact">Contact</li>
-      </ul>
-      <!-- Toggle button -->
-      <button class="navbar__toggle-btn">
-        <i class="fas fa-bars"></i>
-      </button>
-    </nav>
-
-    <!-- Home -->
-    <section id="home">
-      <div class="home__container">
-        <img
-          src="imgs/poodle.png"
-          alt="SOOMIN's profile photo"
-          class="home__avatar"
-        />
-        <h1 class="home__title">진수민 <br />Github 홈페이지</h1>
-        <h2 class="home__description">return development * future;</h2>
-        <button class="home__contact">Contact Me</button>
+      <div class="col-md-8">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+          nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+          libero. Morbi dapibus porta quam laoreet placerat. Donec eu
+          vehicula neque. Donec viverra lorem nunc, tempus euismod eros
+          sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra
+          justo. Proin euismod lacinia dolor, eu scelerisque justo tempus
+          pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus
+          nulla. Proin sed magna egestas, egestas ante et, congue eros. In
+          consequat, mauris dapibus tincidunt suscipit, ex libero aliquet
+          diam, at maximus risus enim non leo.
+        </p>
       </div>
-    </section>
+    </div>
+  </div>
+</div>
+<!-- End #about -->
 
-    <!-- About -->
-    <section id="about" class="section section__container">
-      <h1>About me</h1>
+<div id="experience" class="background-alt">
+  <h2 class="heading">Experience</h2>
+  <div id="experience-timeline">
+    <div data-date="September 2015 – September 2016">
+      <h3>Employer Name</h3>
+      <h4>Job Title</h4>
       <p>
-        Hello. I am preparing to become a developer in both fields of App and
-        Web. I have experience working on various projects and have passion for
-        creation and spirit of challenge.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+        nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+        libero. Morbi dapibus porta quam laoreet placerat.
       </p>
-      <div class="about__majors">
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-html5"></i>
-          </div>
-          <div class="major__title">Front-end</div>
-          <div class="major__description">
-            HTML, CSS, JavaScript, TypeScript,
-            <br />React, Web APIs
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-server"></i>
-          </div>
-          <div class="major__title">Back-end</div>
-          <div class="major__description">
-            Java, Spring, NodeJS
-            <br />Rest APIs
-          </div>
-        </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-mobile"></i>
-          </div>
-          <div class="major__title">Mobile</div>
-          <div class="major__description">
-            Android, React Native,
-            <br />Java, Kotlin
-          </div>
-        </div>
-      </div>
-      <div class="about__jobs">
-        <div class="job">
-          <img
-            src="imgs/jobs/inha-univ-logo.jpg"
-            alt="inha-univ-logo"
-            class="job__logo"
-          />
-          <div class="job__description">
-            <p class="job__name">
-              Graduated from Inha University, Department of Information and
-              Communication Engineering
-            </p>
-            <p class="job__period">2012 Mar - 2019 Aug</p>
-          </div>
-        </div>
-        <div class="job">
-          <img src="imgs/jobs/seoul.png" alt="seoul-logo" class="job__logo" />
-          <div class="job__description">
-            <p class="job__name">
-              Worked as an intern at Seoul City Hall Finance Department
-            </p>
-            <p class="job__period">2020 Sep - 2020 Dec</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <!-- Skills -->
-    <section id="skills" class="section">
-      <div class="section__container">
-        <h1>한국폴리텍대학 광명융합기술교육원</h1>
-        <h2>데이터분석과</h2>
-        <iframe
-          width="800"
-          height="500"
-          src="https://www.youtube.com/embed/fFOt80UcN3g"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
+    <div data-date="September 2015 – September 2016">
+      <h3>Employer Name</h3>
+      <h4>Job Title</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+        nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+        libero. Morbi dapibus porta quam laoreet placerat.
+      </p>
+    </div>
 
-    <!-- Work -->
-    <section id="work" class="section">
-      <div class="section__container">
-        <h1>수강과목</h1>
-        <h3>과목 리스트</h3>
-        <div class="subject__table">
-          <table>
-            <thead>
-              <tr>
-                <th>수강과목</th>
-                <th>교육기간</th>
-                <th>개요</th>
-                <th>바로가기</th>
-              </tr>
-            </thead>
-            <tbod>
-              <tr>
-                <td>GIT</td>
-                <td>2022.03</td>
-                <td>cli 를 활용한 git 기본사용 방법과 홈페이지 제작</td>
-                <td>
-                  <a
-                    href="https://jinsumin.github.io/git-class-page"
-                    target="_blank"
-                    style="color: blue"
-                    >GIT-CLASS-PAGE</a
-                  >
-                </td>
-              </tr>
-            </tbod>
-          </table>
+    <div data-date="September 2015 – September 2016">
+      <h3>Employer Name</h3>
+      <h4>Job Title</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+        nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+        libero. Morbi dapibus porta quam laoreet placerat.
+      </p>
+    </div>
+  </div>
+</div>
+<!-- End #experience -->
+
+<div id="education">
+  <h2 class="heading">Education</h2>
+  <div class="education-block">
+    <h3>University of Ottawa</h3>
+    <span class="education-date">Sept 2016 - Sept 2017</span>
+    <h4>Bachelor of Science in Computer Science</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in
+      iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla
+      commodo malesuada sit amet vel lacus. Fusce eget efficitur libero.
+      Morbi dapibus porta quam laoreet placerat.
+    </p>
+  </div>
+  <!-- End .education-block -->
+
+  <div class="education-block">
+    <h3>University of Ottawa</h3>
+    <span class="education-date">Sept 2016 - Sept 2017</span>
+    <h4>Bachelor of Science in Computer Science</h4>
+    <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    </ul>
+  </div>
+  <!-- End .education-block -->
+</div>
+<!-- End #education -->
+
+<div id="projects" class="background-alt">
+  <h2 class="heading">Projects</h2>
+  <div class="container">
+    <div class="row">
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/project.jpg" />
         </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>Project Name Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+            tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+            eget efficitur libero. Morbi dapibus porta quam laoreet
+            placerat.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- End .project-info -->
       </div>
-    </section>
+      <!-- End .project -->
 
-    <!-- Contact -->
-    <section id="contact" class="section">
-      <h1 class="contact__title">Contacts</h1>
-      <h2 class="contact__email">dev.soomin@kakao.com</h2>
-      <h2 class="contact__number">010 4754 7257</h2>
-      <div class="contact__links">
-        <a href="https://github.com/jinsumin" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
+      <div class="project shadow-large">
+        <div class="project-image">
+          <img src="images/project.jpg" />
+        </div>
+        <!-- End .project-image -->
+        <div class="project-info">
+          <h3>Project Name Here</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut
+            tortor nec nulla commodo malesuada sit amet vel lacus. Fusce
+            eget efficitur libero. Morbi dapibus porta quam laoreet
+            placerat.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+        <!-- End .project-info -->
       </div>
-    </section>
+      <!-- End .project -->
+    </div>
+  </div>
+</div>
+<!-- End #projects -->
 
-    <!-- Arrow up -->
-    <button class="arrow-up">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-  </body>
+<div id="skills">
+  <h2 class="heading">Skills</h2>
+  <ul>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Ruby</li>
+    <li>Go</li>
+    <li>Node.js</li>
+    <li>AngularJs</li>
+    <li>React</li>
+    <li>Elixir</li>
+    <li>Java</li>
+    <li>C</li>
+    <li>C#</li>
+    <li>C++</li>
+    <li>Ruby on Rails</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Ruby</li>
+    <li>Go</li>
+    <li>Node.js</li>
+    <li>AngularJs</li>
+    <li>React</li>
+    <li>Elixir</li>
+    <li>Java</li>
+    <li>C</li>
+    <li>C#</li>
+    <li>C++</li>
+    <li>Ruby on Rails</li>
+  </ul>
+</div>
+<!-- End #skills -->
+
+<div id="contact">
+  <h2>Get in Touch</h2>
+  <div id="contact-form">
+    <form method="POST" action="https://formspree.io/email@email.com">
+      <input
+              type="hidden"
+              name="_subject"
+              value="Contact request from personal website"
+      />
+      <input
+              type="email"
+              name="_replyto"
+              placeholder="Your email"
+              required
+      />
+      <textarea
+              name="message"
+              placeholder="Your message"
+              required
+      ></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- End #contact-form -->
+</div>
+<!-- End #contact -->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 copyright">
+        <p>
+          Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+        </p>
+      </div>
+      <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+      </div>
+      <div class="col-sm-5 social">
+        <ul>
+          <li>
+            <a href="https://github.com/" target="_blank"
+            ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/" target="_blank"
+            ><i class="fa fa-stack-overflow" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/" target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/" target="_blank"
+            ><i class="fa fa-google-plus" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
 </html>
