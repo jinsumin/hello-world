@@ -91,19 +91,19 @@ header li {
 
 header a {
   display: block;
-  color: #3498db;
+  color: #008F8B;
   padding: 10px;
 }
 
 header a:hover {
-  color: #217dbb;
+  color: #008F8B;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
 }
 
 header a:focus {
-  color: #3498db;
+  color: #008F8B;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #3498db;
+  color: #008F8B;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -143,7 +143,7 @@ header.sticky {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #3498db;
+  color: #008F8B;
 }
 
 #mobile-menu-close span {
@@ -209,7 +209,7 @@ footer {
 }
 
 .social a:hover {
-  color: #3498db;
+  color: #008F8B;
 }
 
 .btn-rounded-white {
@@ -222,7 +222,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-  color: #3498db;
+  color: #008F8B;
   background: #fff;
   text-decoration: none;
 }
@@ -252,7 +252,7 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #3498db;
+  background: #008F8B;
 }
 
 .background-alt {
@@ -308,7 +308,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33, 125, 187, 0.8);
+  background: rgba(0, 143, 139, 0.3);
   z-index: 1;
 }
 
@@ -391,7 +391,7 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: #008F8B;
   z-index: 0;
 }
 
@@ -400,8 +400,8 @@ footer {
   content: "";
   width: 3px;
   height: 40px;
-  background: #3498db;
-  background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+  background: #008F8B;
+  background: linear-gradient(to bottom, #008F8B, rgba(0, 143, 139, 0));
   top: 100%;
   left: 303px;
 }
@@ -448,7 +448,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: #008F8B;
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -606,7 +606,7 @@ footer {
 
 #contact {
   padding: 50px 15px;
-  background: #3498db;
+  background: #008F8B;
   text-align: center;
 }
 
@@ -629,7 +629,7 @@ footer {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background: #008F8B;
   color: #fff;
   transition: 0.5s ease all;
 }
@@ -674,7 +674,7 @@ footer {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #3498db;
+  color: #008F8B;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s ease all;
@@ -710,7 +710,7 @@ footer {
 }
 
 .optional-section-block h4 {
-  color: #74808a;
+  color: #008F8B;
   clear: both;
   font-weight: 500;
   margin: 0 0 15px 0;
@@ -719,7 +719,7 @@ footer {
 .optional-section-block p,
 .optional-section-block ul {
   margin: 0 0 15px 0;
-  color: #74808a;
+  color: #008F8B;
   font-size: 0.9em;
 }
 
